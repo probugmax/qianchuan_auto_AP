@@ -1,6 +1,7 @@
 import tkinter as tk
 import pynput as ut
 
+# 这是一个定位屏幕鼠标位置的工具
 
 window = tk.Tk()
 window.title('鼠标位置')
@@ -33,5 +34,6 @@ t.pack(side=tk.LEFT,anchor='nw',padx=10,pady=32)  # 设置text的位置
 b = tk.Button(window,width=10,height=1,text='获取坐标',
               font=('宋体',20),command=pynput_n)
 b.pack(side=tk.LEFT,anchor='nw',pady=30,padx=20) # 设置Button的位置
+
 
 window.mainloop()
